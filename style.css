@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(33,33,33);
+}
+
+.container {
+    height: 700px;
+    width: 100%;
+}
+.image {
+    float: left;
+    margin-top: 10px;
+    margin-left: 190px;
+    height: 50px;
+    width: auto;
+}
+.navigation {
+    position: absolute;
+    margin-top: 24px;
+    left: 500px;
+    height: 50px;
+    width: 560px;
+}
+.list {
+    text-align: right;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul.list li {
+    margin-right: 70px;
+    display: inline;
+}
+a:hover {
+    color: gray;
+}
+.info {
+    width: auto;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.836);
+    background-image: url(4__1_-removebg-preview.png);
+    background-position: center;
+}
+#main {
+    padding: 50px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.group {
+    width: 1090px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 8%;
+}
+.block {
+    height: 250px;
+}
+#first {
+    width: 40%;
+    background: url(https://okaratah.com/wp-content/uploads/2017/02/ametist_druze.jpg);
+    background-size: cover;
+}
+
+#second {
+    width: 60%;
+    position: relative;
+    bottom: 250px;
+    float: right;
+}
+.common {
+    padding: 22px;
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#third {
+    position: relative;
+    left: 20px;
+    background-color: white;
+    width: 60%;
+}
+#fourth {
+    width: 40%;
+    position: relative;
+    right: 90px;
+    bottom: 250px;
+    float: right;
+    background: url(http://mindraw.web.ru/geode10b.jpg);
+    background-size: cover;
+}
+
+.agat {
+    margin-left: 5px;
+    margin-top: 10px;
+    background: url(https://jewellerymag.ru/wp-content/uploads/2015/10/jewellerymag-ru-2-brazilskiy-agate-natural.jpg);
+    background-size: cover;
+    width: 48%;
+    height: 400px;
+}
+.agat .clap{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 640px;
+    height: 400px;
+    background-color: black;
+    opacity: 75%;
+}
+.agat .clap p{
+    padding: 23px;
+    font-size: 18px;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.fluorite {
+    position: relative;
+    bottom: 400px;
+    right: 15px;
+    float: right;
+    background: url(https://jewellerymag.ru/wp-content/uploads/2016/03/jewellerymag-ru-fluorite-gems-cover-700x517.jpg);
+    background-size: cover;
+    width: 48%;
+    height: 400px;
+}
+.fluorite .clap{
+    width: 633px;
+    height: 400px;
+    background-color: black;
+    opacity: 75%;
+}
+.fluorite .clap p{
+    padding: 23px;
+    font-size: 18px;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#tourmaline {
+    background: url(https://jewellerymag.ru/wp-content/uploads/2016/03/jewellerymag-ru-tourmaline-gems-cover.jpg);
+    background-size: cover;
+}
+#quartz {
+    background: url(https://jewellerymag.ru/wp-content/uploads/2016/03/jewellerymag-ru-smoky-quartz-gems-cover-700x517.jpg);
+    background-size: cover;
+}
+.clap:hover {
+    display: none;
+
+}
+#opal {
+    background: url(https://jewellerymag.ru/wp-content/uploads/2015/04/jewellerymag-ru-opal-gems-cover-700x517.jpg);
+    background-size: cover;
+}
+#ametist {
+    background: url(https://karatov.com/upload/img/210517/1.jpg);
+    background-size: cover;
+}
+.footer {
+    margin-top: 120px;
+    width: 100%;
+    height: 280px;
+    background-color: rgb(33,33,33);
+}
+#end {
+    margin-top: 30px;
+    position: relative;
+    left: 540px;
+    height: 180px;
+    width: auto;
+}
