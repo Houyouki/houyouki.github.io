@@ -61,7 +61,7 @@ a:hover {
     width: 1090px;
     height: 600px;
     margin-top: 20px;
-    margin-left: 8%;
+    margin-left: calc(50% - 520px);
 }
 .block {
     height: 250px;
@@ -97,20 +97,20 @@ a:hover {
     right: 90px;
     bottom: 250px;
     float: right;
-    background: url(https://i.imgur.com/FZrHzLd.jpg);
+    background: url(http://mindraw.web.ru/geode10b.jpg);
     background-size: cover;
 }
 
 .agat {
-    margin-left: 5px;
+    margin-left: calc(50% - 650px);
     margin-top: 10px;
     background: url(https://jewellerymag.ru/wp-content/uploads/2015/10/jewellerymag-ru-2-brazilskiy-agate-natural.jpg);
     background-size: cover;
-    width: 48%;
+    width: 640px;
     height: 400px;
 }
 .agat .clap{
-    margin-left: 5px;
+    margin-left: calc(100% - 635px);
     margin-top: 10px;
     width: 640px;
     height: 400px;
@@ -125,13 +125,13 @@ a:hover {
     text-align: center;
 }
 .fluorite {
+    float: right;
+    margin-right: calc(50% - 650px);
     position: relative;
     bottom: 400px;
-    right: 15px;
-    float: right;
     background: url(https://jewellerymag.ru/wp-content/uploads/2016/03/jewellerymag-ru-fluorite-gems-cover-700x517.jpg);
     background-size: cover;
-    width: 48%;
+    width: 633px;
     height: 400px;
 }
 .fluorite .clap{
@@ -174,9 +174,8 @@ a:hover {
     background-color: rgb(33,33,33);
 }
 #end {
-    margin-top: 30px;
+    left: calc(55% - 180px);
     position: relative;
-    left: 540px;
     height: 180px;
-    width: auto;
+    width: 180px;
 }
